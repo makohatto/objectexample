@@ -35,6 +35,9 @@ class FileInfo {
       return 'CRLF & LF'; //CRLFとLFが混在している場合
     }
   }
+<<<<<<< HEAD
 }
 
+=======
+>>>>>>> 4b21b9a05707bdcf8796d23591f5b64c23606e2b
  ?>
