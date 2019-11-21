@@ -50,13 +50,13 @@ $hattorifamiry = array($makoto, $chiharu, $kyouka);
 
       <?php foreach ($hattorifamiry as $hattories):?>
       <tr>
-      <td><p class="shiharainame">名前<?php echo $hattories->getName() ?></p></td>
+      <td><?php echo $hattories->getName() ?></td>
       </tr>
       <tr>
-      <td><p class="shiharaiprice">年齢<?php echo $hattories->getAge() ?>歳</p></td>
+      <td><?php echo $hattories->getAge() ?></td>
       </tr>
       <tr>
-      <td><p class="shiharaiprice">誕生日<?php echo $hattories->getBirth() ?></p></td>
+      <td><<?php echo $hattories->getBirth() ?></td>
       </tr>
     <?php endforeach ?>
     </table>
