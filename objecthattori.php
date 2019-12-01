@@ -27,9 +27,9 @@ class Hattori {
 
 }
 
-$makoto=new Hattori('誠',19730817);
-$chiharu=new Hattori('ちゅり子',19711123);
-$kyouka=new Hattori('きょうか',20040524);
+$makoto=new Hattori('誠','19730817');
+$chiharu=new Hattori('ちゅり子','19711123');
+$kyouka=new Hattori('きょうか','20040524');
 
 $hattorifamiry = array($makoto, $chiharu, $kyouka);
 ?>
@@ -50,13 +50,14 @@ $hattorifamiry = array($makoto, $chiharu, $kyouka);
 
       <?php foreach ($hattorifamiry as $hattories):?>
       <tr>
+
+
       <td><?php echo $hattories->getName() ?></td>
-      </tr>
-      <tr>
+
+
       <td><?php echo $hattories->getAge() ?></td>
-      </tr>
-      <tr>
-      <td><<?php echo $hattories->getBirth() ?></td>
+
+      <td><?php echo $hattories->getBirth() ?></td>
       </tr>
     <?php endforeach ?>
     </table>

@@ -6,8 +6,8 @@
     <title>データをCookieに保存したい（保存する）</title>
   </head>
   <body>
-  <?php
   <p>
+  <?php
   require_once 'h.php';
 
   if(isset($_COOKIE['sample'])){
